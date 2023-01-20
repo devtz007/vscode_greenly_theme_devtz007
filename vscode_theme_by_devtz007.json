@@ -1,0 +1,98 @@
+{
+
+
+    /*------------------------------------*\
+            custom vs code design
+    \*------------------------------------*/
+    /*----------global-------------*/
+    //editor font
+    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    //editor cursor
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    //terminal
+    "terminal.integrated.fontSize": 12,
+    //log
+    "[Log]": {
+        "editor.fontSize": 12,
+    },
+    /*----------Workbench-------------*/
+    "workbench.colorTheme": "Happy Hipster",
+    "workbench.colorCustomizations": {
+        //window
+        "window.inactiveBorder": "#2fd10e",
+        //tab bar
+        "tab.activeBackground": "#232136",
+        "tab.activeForeground": "#50fa7b",
+        "tab.inactiveForeground": "#ffffff",
+        "tab.activeBorder": "#00000000",
+        "tab.unfocusedActiveBorder": "#ffffff00",
+        "tab.unfocusedActiveBackground": "#00000000",
+        "tab.unfocusedActiveForeground": "#ffff",
+        //title bar
+        "titleBar.activeBackground": "#232136",
+        "titleBar.activeForeground": "#ffff",
+        "titleBar.inactiveBackground": "#232136",
+        "titleBar.inactiveForeground": "#ffffff",
+        "titleBar.border": "#000000",
+        //status bar
+        "statusBar.background": "#232136",
+        "statusBar.foreground": "#ffffff",
+        "statusBarItem.activeBackground": "#282A36",
+        "statusBarItem.hoverBackground": "#282A36",
+        "statusBarItem.focusBorder": "#fc0000",
+        "statusBarItem.compactHoverBackground": "#d906f500",
+        "statusBar.border": "#000000",
+        //editor
+        "editor.background": "#282A36",
+        "editor.selectionBackground": "#000000",
+        "editor.foreground": "#ffffff",
+        "editor.lineHighlightBackground": "#000000",
+        "editor.lineHighlightBorder": "#36fe0477",
+        "editor.linkedEditingBackground": "#fc0707",
+        "editor.inlineValuesForeground": "#fbff04",
+        "editorLineNumber.foreground": "#36fe0477",
+        "editorGutter.background": "#232136",
+        "editorCursor.foreground": "#ff5555",
+        "editor.selectionHighlightBackground": "#00000000",
+        "editor.selectionHighlightBorder": "#ffffff",
+        "editor.inactiveSelectionBackground": "#000000",
+        "editor.renderWhitespace": "all",
+        //bracket
+        "editorBracketMatch.background": "#00000000",
+        "editorBracketMatch.border": "#37FE04",
+        "editorIndentGuide.activeBackground": "#37FE04",
+        //activity bar
+        "activityBar.background": "#232136",
+        "activityBar.foreground": "#50fa7b",
+        "activityBar.border": "#000000",
+        //side bar
+        "sideBarTitle.foreground": "#ffff",
+        "sideBar.background": "#282a36",
+        "sideBar.foreground": "#ffffff",
+        "sideBar.border": "#000000",
+        "sideBarSectionHeader.background": "#232136",
+        "sideBarSectionHeader.foreground": "#50fa7b",
+        "sideBySideEditor.verticalBorder": "#ff0278",
+        "sideBar.dropBackground": "#ff0000",
+        //panel
+        "panel.background": "#282A36",
+        "panel.border": "#000000",
+        "panelTitle.activeBorder": "#00000000",
+        "panelTitle.activeForeground": "#B2BD43",
+
+    },
+
+    /*------------------------------------*\
+        custom vs code design End
+    \*------------------------------------*/
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+
+}
